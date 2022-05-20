@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body {
+  font-family: "メイリオ", sans-serif;
+  background-image: url("../img/bg-checkered.gif");
+}
+
+h2 {
+  font-size: 200%;
+}
+
+footer {
+  text-align: right;
+}
+#question {
+    font-weight: bold;
+}
+article {
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+    border: 3px;
+    border-style: dotted;
+    border-color: forestgreen;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: aliceblue;
+}
+table, th, td{
+    border: 1px;
+    border-style: solid;
+    border-color: #000000;
+    border-collapse: collapse;
+}
+table {
+    margin: 10px 20px 20px 10px;
+}
+th {
+    text-align: left;
+    vertical-align: top;
+    padding: 10px;
+    width: 100px;
+    background-color: #07fff5;
+}
+td {
+    padding: 5px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+li a {
+    color: #0000ff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 5px 0 5px;
+}
+li a:hover {
+    color: #e00a44;
+    background-color: #daffea;
+}
+
+dt {
+    padding-left: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    border-left: 10px solid #07fff5;
+    border-bottom: 1px solid #cccccc;
+}
+dd {
+    margin: 0 0 1em 1em;
+}
+/* 演習4 */
+img {
+  float: left;
+}
